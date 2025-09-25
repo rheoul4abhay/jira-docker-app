@@ -2,4 +2,4 @@ services:
   app:
     image: abhayshrivastava/myapp-jira-docker
     ports:
-      - "5000":"5000"
+      - 5000:5000
